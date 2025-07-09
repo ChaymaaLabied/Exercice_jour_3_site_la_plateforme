@@ -11,25 +11,25 @@
     />
   </head>
   <body>
-    <!-- Header -->
-    <header class="site-header">
+    <!-- En-tête -->
+    <header class="header">
       <div class="header-content">
-        <div class="logo">
+        <div class="header-logo">
           <img
             src="/images/logo-laplateforme-2024.png"
             alt="Logo La Plateforme"
           />
         </div>
-        <nav>
+        <nav class="header-menu">
           <i class="fa-solid fa-bars"></i>
         </nav>
       </div>
     </header>
 
     <!-- Section principale -->
-    <main class="main-content">
-      <section class="intro">
-        <div class="text">
+    <main class="main-section">
+      <section class="presentation">
+        <div class="presentation-text">
           <h1>La grande école du numérique pour tous !</h1>
           <p>
             Des parcours de formations d’excellence en informatique aux frais de
@@ -41,19 +41,44 @@
             bénéfice de tous !
           </p>
           <p>Le digital c’est maintenant !</p>
+          <div class="cta-section">
+            <button class="btn-main">
+              TESTS DE SÉLECTION &amp; PRÉ-INSCRIPTIONS
+            </button>
+
+            <div class="cta-links">
+              <a href="#" class="cta-link">
+                <i class="fas fa-book-open"></i>
+                <span>Télécharger la<br />Brochure</span>
+              </a>
+              <a href="#" class="cta-link">
+                <i class="fas fa-map-marked-alt"></i>
+                <span>Journées<br />Portes Ouvertes</span>
+              </a>
+              <a href="#" class="cta-link">
+                <i class="fas fa-envelope-open-text"></i>
+                <span>S’inscrire à la<br />Newsletter</span>
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="photos">
+        <div class="presentation-image">
           <img src="/images/photo1.jpg" alt="photo1" />
         </div>
       </section>
     </main>
 
-    <!-- Footer -->
-    <footer class="site-footer">
-      <div class="footer-main">
-        <div class="footer-left">
-          <img src="logo-blanc.svg" alt="Logo La Plateforme" class="logo" />
-          <p>La grande école du numérique pour tous</p>
+    <!-- Pied de page -->
+    <footer class="footer">
+      <div class="footer-content">
+        <!-- Bloc gauche : logo, réseaux, boutons -->
+        <div class="footer-branding">
+          <img
+            src="/images/Fichier-1.svg"
+            alt="Logo La Plateforme"
+            class="footer-logo"
+          />
+
           <div class="social-icons">
             <i class="fa-brands fa-facebook"></i>
             <i class="fa-brands fa-instagram"></i>
@@ -61,48 +86,51 @@
             <i class="fa-brands fa-twitter"></i>
             <i class="fa-brands fa-youtube"></i>
           </div>
-
-          <div class="footer-buttons">
-            <button class="btn-light">Rejoignez nos équipes</button>
-            <button class="btn-red">Télécharger la brochure</button>
-          </div>
+          <button class="btn btn-white">Rejoignez nos équipes</button>
+          <button class="btn btn-red">Télécharger la brochure</button>
         </div>
 
-        <div class="footer-links">
-          <div class="col">
-            <h4>La Plateforme</h4>
-            <a href="#">Accueil</a>
-            <a href="#">Qui sommes-nous ?</a>
-            <a href="#">Notre brochure</a>
-            <a href="#">Ils parlent de nous</a>
-            <a href="#">News</a>
-            <a href="#">Taxe d'apprentissage</a>
-          </div>
-          <div class="col">
-            <h4>Les Formations</h4>
-            <a href="#">Bachelor IT</a>
-            <a href="#">Master of Science</a>
-            <a href="#">Innovation Lab</a>
-            <a href="#">Développement</a>
-            <a href="#">Intelligence Artificielle</a>
-            <a href="#">Cybersécurité</a>
-          </div>
-          <div class="col">
-            <h4>Informations</h4>
-            <p>8 rue d’hozier, 13002 Marseille</p>
-            <p>Tel : 04.84.89.43.69</p>
-            <a href="#" class="btn-outline">Contact</a>
-          </div>
+        <!-- Liens 1 -->
+        <div class="link-column">
+          <h4>La Plateforme</h4>
+          <a href="#">Accueil</a>
+          <a href="#">Qui sommes-nous ?</a>
+          <a href="#">Notre brochure</a>
+          <a href="#">Ils parlent de nous</a>
+          <a href="#">News</a>
+          <a href="#">Taxe d'apprentissage</a>
         </div>
 
-        <img src="logo-april.png" alt="April" class="logo-april" />
+        <!-- Liens 2 -->
+        <div class="link-column">
+          <h4>Les Formations</h4>
+          <a href="#">Bachelor IT</a>
+          <a href="#">Master of Science</a>
+          <a href="#">Innovation Lab</a>
+          <a href="#">Développement</a>
+          <a href="#">Intelligence Artificielle</a>
+          <a href="#">Cybersécurité</a>
+        </div>
+
+        <!-- Infos pratiques -->
+        <div class="link-column">
+          <h4>Informations</h4>
+          <p>8 rue d’hozier, 13002 Marseille</p>
+          <p>Tel : 04.84.89.43.69</p>
+          <a href="#" class="btn-outline">Contact</a>
+          <img
+            src="/images/Logo_April_footer2.svg"
+            alt="April"
+            class="logo-april"
+          />
+        </div>
       </div>
 
       <div class="footer-bottom">
         <p>
           © La Plateforme – Établissement d’enseignement supérieur technique
-          privé – Tous droits réservés. | <a href="#">Mentions légales</a> |
-          <a href="#">Cookies</a> |
+          privé – Tous droits réservés. |
+          <a href="#">Mentions légales</a> | <a href="#">Cookies</a> |
           <a href="#">Conditions générales de vente</a> | Référent handicap :
           Christine Yorillo
         </p>
