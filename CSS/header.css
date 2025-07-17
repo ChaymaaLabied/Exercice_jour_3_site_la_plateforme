@@ -1,0 +1,19 @@
+/* ----- En-tête ----- */
+.header {
+  background-color: white;
+  padding: 1rem 2rem;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo img {
+  height: 40px;
+}
+
+.header-menu i {
+  font-size: 1.5rem;
+}
