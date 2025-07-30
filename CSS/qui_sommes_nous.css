@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  color: #222;
+  background-color: #fff;
+}
+
+/* MAIN CONTENT */
+.about-page {
+  padding: 2rem 1rem 4rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* TITRES */
+.about-page h1,
+.about-page h2 {
+  font-weight: 700;
+  color: #0d1117;
+  margin-bottom: 1rem;
+}
+
+.about-page h1 {
+  font-size: 2.5rem;
+}
+
+.about-page h2 {
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
+/* PARAGRAPHES */
+.about-page p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+/* PARTENAIRES */
+.partners-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.partners-logos img {
+  max-height: 60px;
+  max-width: 100px;
+  object-fit: contain;
+}
+
+/* VIDÉOS */
+.videos-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.videos-wrapper iframe {
+  width: 100%;
+  max-width: 320px;
+  height: 180px;
+  border-radius: 8px;
+  border: none;
+}
+
+/* RESPONSIVE */
+@media (min-width: 768px) {
+  .videos-wrapper iframe {
+    max-width: 400px;
+    height: 225px;
+  }
+}

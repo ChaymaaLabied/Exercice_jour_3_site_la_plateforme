@@ -1,0 +1,98 @@
+/* Style global minimal */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+}
+
+main {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  color: #222;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+ul {
+  padding-left: 1.2em;
+}
+
+a {
+  color: #c8102e;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url("/images/cyber-security-background.jpg") no-repeat center/cover;
+  color: white;
+  padding: 6rem 1rem;
+  text-align: center;
+}
+
+.hero-button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  background: #c8102e;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+}
+
+/* Sections */
+section {
+  margin-bottom: 3rem;
+}
+
+.formation-card {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: #fafafa;
+}
+
+.formation-card img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.btn-secondary {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #eee;
+  color: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+/* Témoignages */
+.testimonials blockquote {
+  font-style: italic;
+  margin-bottom: 2rem;
+  border-left: 4px solid #ccc;
+  padding-left: 1rem;
+}
+
+/* Équipe pédagogique */
+.team-member {
+  margin-bottom: 1rem;
+}

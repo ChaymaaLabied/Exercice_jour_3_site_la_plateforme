@@ -182,7 +182,7 @@ body {
 }
 .formations-cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .formation-card {
   display: flex;
